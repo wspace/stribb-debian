@@ -1,0 +1,11 @@
+This is the Debian package whitespace.
+
+It was Debianised by Andrew Stribblehill on 2003-03-31
+from http://compsoc.dur.ac.uk/whitespace/
+
+It was written by Edwin Brady <e.c.brady@durham.ac.uk> and is
+released under the GNU General Public License version 2 or
+(at your option) any later version.
+
+On Debian GNU/Linux systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.

@@ -1,0 +1,53 @@
+#! /usr/bin/make -f
+#
+# Debian rules for whitespace
+
+PREFIX=debian/whitespace
+DOCDIR=$(PREFIX)/usr/share/doc/whitespace
+
+#export DH_VERBOSE=1
+
+.PHONY: clean build install binary
+
+clean:
+	dh_testdir
+	dh_testroot
+	$(MAKE) clean
+	rm -rf $(PREFIX) build-stamp
+	dh_clean
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+	$(MAKE)
+	touch build-stamp
+
+install: build-stamp
+	dh_testdir
+	dh_testroot
+	dh_install
+	dh_strip
+	dh_installdocs
+	dh_installchangelogs
+	dh_installman
+	dh_installexamples
+	dh_link
+	dh_compress
+	dh_fixperms
+
+
+binary: binary-indep binary-arch
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_builddeb
+	dh_md5sums
+	dh_install
