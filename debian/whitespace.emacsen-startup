@@ -1,0 +1,12 @@
+;-*-emacs-lisp-*-
+
+(autoload 'whitespace-mode "whitespace-mode" "Whitespace editing mode." t)
+
+(setq load-path
+      (cons "/usr/share/emacs/site-lisp/whitespace" load-path))
+
+(setq auto-mode-alist
+      (cons '("\\.ws$" . whitespace-mode) auto-mode-alist))
+
+(setq interpreter-mode-alist
+    (cons '("whitespace" . whitespace-mode) interpreter-mode-alist))

@@ -1,1 +1,2 @@
 wspace usr/bin
+emacs/whitespace-mode.el usr/share/emacs/site-lisp/whitespace
