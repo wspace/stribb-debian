@@ -1,3 +1,9 @@
+whitespace (0.3-2) unstable; urgency=low
+
+  * Rebuild again for the C++ ABI change (closes #329277).
+
+ -- Andrew Stribblehill <ads@debian.org>  Wed, 21 Sep 2005 18:04:51 +0100
+
 whitespace (0.3-1) unstable; urgency=low
 
   * New upstream release. Patch to fact.ws closes #246309.
