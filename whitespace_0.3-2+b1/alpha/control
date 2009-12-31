@@ -1,0 +1,14 @@
+Package: whitespace
+Source: whitespace (0.3-2)
+Version: 0.3-2+b1
+Architecture: alpha
+Maintainer: Andrew Stribblehill <ads@debian.org>
+Installed-Size: 5956
+Depends: libc6.1 (>= 2.7-1), libgmp3c2
+Section: interpreters
+Priority: optional
+Description: Programming language where only whitespace counts
+ Most modern programming languages do not consider white space characters
+ (spaces, tabs and newlines) syntax, ignoring them, as if they weren't there.
+ Whitespace is a language that seeks to redress the balance. Any non whitespace
+ characters are ignored; only spaces, tabs and newlines are considered syntax.

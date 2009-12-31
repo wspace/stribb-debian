@@ -1,5 +1,12 @@
 whitespace (0.3-2+b1) stable; urgency=low
 
+  * Binary-only non-maintainer upload for alpha; no source changes.
+  * Build against new version of ghc6 6.8.2dfsg1-1.1.
+
+ -- alpha Build Daemon (goetz) <buildd_alpha-goetz@buildd.debian.org>  Thu, 31 Dec 2009 22:22:51 +0000
+
+whitespace (0.3-2+b1) stable; urgency=low
+
   * Binary-only non-maintainer upload for ia64; no source changes.
   * Build against new version of ghc6 6.8.2dfsg1-1.1.
 
