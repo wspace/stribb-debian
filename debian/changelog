@@ -1,3 +1,10 @@
+whitespace (0.3-2+b1) stable; urgency=low
+
+  * Binary-only non-maintainer upload for amd64; no source changes.
+  * Build against new version of ghc6 6.8.2dfsg1-1.1.
+
+ -- amd64 Build Daemon (brahms) <buildd_amd64-brahms@buildd.debian.org>  Thu, 31 Dec 2009 17:55:20 +0000
+
 whitespace (0.3-2) unstable; urgency=low
 
   * Rebuild again for the C++ ABI change (closes #329277).
