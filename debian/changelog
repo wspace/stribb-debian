@@ -1,5 +1,12 @@
 whitespace (0.3-2+b1) stable; urgency=low
 
+  * Binary-only non-maintainer upload for ia64; no source changes.
+  * Build against new version of ghc6 6.8.2dfsg1-1.1.
+
+ -- Debian/IA64 Build Daemon <buildd@mundy.debian.org>  Thu, 31 Dec 2009 20:16:55 +0000
+
+whitespace (0.3-2+b1) stable; urgency=low
+
   * Binary-only non-maintainer upload for amd64; no source changes.
   * Build against new version of ghc6 6.8.2dfsg1-1.1.
 
