@@ -2,8 +2,8 @@ Source: whitespace
 Section: interpreters
 Priority: optional
 Maintainer: Andrew Stribblehill <ads@debian.org>
-Standards-Version: 3.5.9.0
-Build-Depends: debhelper (>= 4.0.0), ghc6
+Standards-Version: 4.6.2.0
+Build-Depends: debhelper (>= 4.0.0), ghc
 
 Package: whitespace
 Architecture: any
